@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>貓格子 - 常見Q&A</title>
+    <link rel="stylesheet" href="css/QA.css">
+    <!-- 字體 -->
+    <script src="https://kit.fontawesome.com/db2fc36788.js" crossorigin="anonymous"></script>
+    <!-- Banner Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/favicon-16x16.png">
+    <!-- 漢堡選單 -->
+    <script src="js/jquery-2.1.3.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script type='text/javascript' src='js/navbar.js'></script>
+</head>
+
+<body>
+    <div class="mobile_logo">
+        <a href="index.html" class="c-fixedLogo_a">
+            <img src="images/Logo_nav.png" alt="logo" class="c-fixedLogo_img">
+        </a>
+    </div>
+    <!-- -------------------導覽列------------------- -->
+    <div class="c-fixedLogo js-fixedLogo">
+        <ul class="navbar">
+            <li class="navbar_01 long"><a href="">關於貓格子</a><i class="fa-solid fa-chevron-right"></i>
+                <ul class="navbar_about">
+                    <li><a href="Aboutus.html">關於我們</a></li>
+                    <li><a href="ServiceItem.html">服務項目</a></li>
+                    <li><a href="Environment.html">環境介紹</a></li>
+                </ul>
+            </li>
+            <li class="navbar_01"><a href="News.html">最新消息</a></li>
+            <li class="navbar_01 long"><a href="">貓咪住宿</a><i class="fa-solid fa-chevron-right"></i>
+                <ul class="navbar_room">
+                    <li><a href="Room.html">房型介紹</a></li>
+                    <li><a href="http://line.me/ti/p/@">住宿預約</a></li>
+                    <li><a href="Rule.html">住宿須知</a></li>
+                </ul>
+            </li>
+            <!-- -------------------LOGO------------------- -->
+            <li class="c-fixedLogo_a">
+                <a href="index.html"><img src="images/Logo_nav.png" alt="logo" class="c-fixedLogo_img"></a>
+            </li>
+            <li class="navbar_01"><a href="ContactUs.html">聯絡我們</a></li>
+            <li class="navbar_01"><a href="Q&A.html">常見Q&A</a></li>
+            <li class="navbar_01"><a href="http://line.me/ti/p/@">線上預約</a></li>
+        </ul>
+    </div>
+    <!-- -------------------漢堡選單------------------- -->
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="nav-toggle">
+        <label for="nav-toggle" class="navigation__button">
+            <span class="navigation__icon" aria-label="toggle navigation menu"></span>
+        </label>
+        <div class="navigation__background"></div>
+        <nav class="navigation__nav" role="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item"><img src="images/Logo_nav.png" alt=""></li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link first" style="margin-left:6.3vmin;">認識貓格子<i
+                            class="fa-solid fa-chevron-right"></i></a>
+                    <ul class="sec">
+                        <li><a href="Aboutus.html" style="margin-left:.5vmin; letter-spacing:2px">關於我們</a></li>
+                        <li><a href="ServiceItem.html" style="margin-left:.5vmin; letter-spacing:2px">服務項目</a></li>
+                        <li><a href="Environment.html" style="margin-left:.5vmin; letter-spacing:2px">環境介紹</a></li>
+                    </ul>
+                </li>
+                <li class="navigation__item">
+                    <a href="News.html" class="navigation__link">最新消息</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link first" style="margin-left:3.3vmin;">貓咪住宿<i
+                            class="fa-solid fa-chevron-right"></i></a>
+                    <ul class="sec">
+                        <li><a href="Room.html" style="margin-left:.3vmin; letter-spacing:2px">房型介紹</a></li>
+                        <li><a href="http://line.me/ti/p/@" style="margin-left:.3vmin; letter-spacing:2px">住宿預約</a></li>
+                        <li><a href="Rule.html" style="margin-left:.3vmin; letter-spacing:2px">住宿須知</a></li>
+                    </ul>
+                </li>
+                <li class="navigation__item">
+                    <a href="ContactUs.html" class="navigation__link">聯絡我們</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="Q&A.html" class="navigation__link">常見Q&A</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- -------------------跑馬燈------------------- -->
+    <div class="news_ticker">
+        <marquee scrollamount="3">雙十連假優惠最多享7折，立即手刀預約！</marquee>
+    </div>
+    <!-- -------------------跑馬燈結束------------------- -->
+
+    <!-- -------------------Banner------------------- -->
+    <div class="banner">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide big"
+                    style="background-image:url(images/banner_01.png); background-size: cover; background-repeat: no-repeat;">
+                    <a href="http://line.me/ti/p/@" class="reserve" style="width:90%; margin-bottom: -45vmin;">
+                        <div>
+                            <p>立即預約</p>
+                        </div>
+                        <div><i class="fa-solid fa-angles-right"></i></div>
+                    </a>
+                </div>
+                <div class="swiper-slide medium"
+                    style="background-image:url(images/bannermedium_01.png); background-size: cover; background-repeat: no-repeat;">
+                    <a href="http://line.me/ti/p/@" class="reserve"
+                        style="width:90%;margin-left: 7vmin; margin-top: 72vmin;">
+                        <div>
+                            <p>立即預約</p>
+                        </div>
+                        <div><i class="fa-solid fa-angles-right"></i></div>
+                    </a>
+                </div>
+                <div class="swiper-slide small"
+                    style="background-image:url(images/bannersmall_01.png); background-size: cover; background-repeat: no-repeat;">
+                    <a href="http://line.me/ti/p/@" class="reserve"
+                        style="width:90%;margin-left: 25vmin; margin-top: 105vmin;">
+                        <div>
+                            <p>立即預約</p>
+                        </div>
+                        <div><i class="fa-solid fa-angles-right"></i></div>
+                    </a>
+                </div>
+                <div class="swiper-slide big"
+                    style="background-image:url(images/banner_02.png); background-size: cover; background-repeat: no-repeat;">
+                    <a href="http://line.me/ti/p/@" class="reserve" style="width:90%; margin-bottom: -45vmin;">
+                        <div>
+                            <p>立即預約</p>
+                        </div>
+                        <div><i class="fa-solid fa-angles-right"></i></div>
+                    </a>
+                </div>
+                <div class="swiper-slide medium"
+                    style="background-image:url(images/bannermedium_02.png); background-size: cover; background-repeat: no-repeat;">
+                    <a href="http://line.me/ti/p/@" class="reserve"
+                        style="width:90%;margin-left: 7vmin; margin-top: 72vmin;">
+                        <div>
+                            <p>立即預約</p>
+                        </div>
+                        <div><i class="fa-solid fa-angles-right"></i></div>
+                    </a>
+                </div>
+                <div class="swiper-slide small"
+                    style="background-image:url(images/bannersmall_02.png); background-size: cover; background-repeat: no-repeat;">
+                    <a href="http://line.me/ti/p/@" class="reserve"
+                        style="width:90%;margin-left: 25vmin; margin-top: 105vmin;">
+                        <div>
+                            <p>立即預約</p>
+                        </div>
+                        <div><i class="fa-solid fa-angles-right"></i></div>
+                    </a>
+                </div>
+                <div class="swiper-slide big"
+                    style="background-image:url(images/banner_03.png); background-size: cover; background-repeat: no-repeat;">
+                    <a href="http://line.me/ti/p/@" class="reserve" style="width:90%; margin-bottom: -45vmin;">
+                        <div>
+                            <p>立即預約</p>
+                        </div>
+                        <div><i class="fa-solid fa-angles-right"></i></div>
+                    </a>
+                </div>
+                <div class="swiper-slide medium"
+                    style="background-image:url(images/bannermedium_03.png); background-size: cover; background-repeat: no-repeat;">
+                    <a href="http://line.me/ti/p/@" class="reserve"
+                        style="width:90%;margin-left: 7vmin; margin-top: 72vmin;">
+                        <div>
+                            <p>立即預約</p>
+                        </div>
+                        <div><i class="fa-solid fa-angles-right"></i></div>
+                    </a>
+                </div>
+                <div class="swiper-slide small"
+                    style="background-image:url(images/bannersmall_03.png); background-size: cover; background-repeat: no-repeat;">
+                    <a href="http://line.me/ti/p/@" class="reserve"
+                        style="width:90%;margin-left: 25vmin; margin-top: 105vmin;">
+                        <div>
+                            <p>立即預約</p>
+                        </div>
+                        <div><i class="fa-solid fa-angles-right"></i></div>
+                    </a>
+                </div>
+                <div class="swiper-slide big"
+                    style="background-image:url(images/banner_04.png); background-size: cover; background-repeat: no-repeat;">
+                    <a href="http://line.me/ti/p/@" class="reserve" style="width:90%; margin-bottom: -45vmin;">
+                        <div>
+                            <p>立即預約</p>
+                        </div>
+                        <div><i class="fa-solid fa-angles-right"></i></div>
+                    </a>
+                </div>
+                <div class="swiper-slide medium"
+                    style="background-image:url(images/bannermedium_04.png); background-size: cover; background-repeat: no-repeat;">
+                    <a href="http://line.me/ti/p/@" class="reserve"
+                        style="width:90%;margin-left: 7vmin; margin-top: 72vmin;">
+                        <div>
+                            <p>立即預約</p>
+                        </div>
+                        <div><i class="fa-solid fa-angles-right"></i></div>
+                    </a>
+                </div>
+                <div class="swiper-slide small"
+                    style="background-image:url(images/bannersmall_04.png); background-size: cover; background-repeat: no-repeat;">
+                    <a href="http://line.me/ti/p/@" class="reserve"
+                        style="width:90%;margin-left: 25vmin; margin-top: 105vmin;">
+                        <div>
+                            <p>立即預約</p>
+                        </div>
+                        <div><i class="fa-solid fa-angles-right"></i></div>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid">
+        <!-- -------------------麵包屑------------------- -->
+        <div class="breadcrumb">
+            <ol class="cd-breadcrumb custom-separator">
+                <li><a href="index.html">首頁</a></li>
+                <li><i class="fa-solid fa-chevron-right"></i></li>
+                <li class="active"><a href="#">常見Q&A</a></li>
+            </ol>
+        </div>
+        <!-- -------------------常見Q&A------------------- -->
+        <div class="rule">
+            <h2 class="title">
+                <span>常見Q&A</span>
+            </h2>
+            <div class="row">
+                <button class="accordion"><i class="fa-solid fa-chevron-down"></i>
+                    <h3>住宿期間，會讓貓咪出房間放風嗎？</h3>
+                </button>
+                <div class="accordion-content">
+                    <p>會的！
+                        為了避免陌生貓咪之間打架受傷，並確保害羞的貓咪也能有安心的放風時間，貓後苑採用＂每房獨立放風＂的做法！
+                        不同房的貓咪不會一起放風喔！
+                        (每房輪流獨立放風，一房每日放風時間為大家輪流平均分配，若旅館當日只有一隻貓則是整天放風哦。)
+                        但每位貓咪個性不同，如貓咪緊張不願意出房間，我們不會強迫貓咪出來，敬請家長理解。
+                    </p>
+                </div>
+
+                <button class="accordion"><i class="fa-solid fa-chevron-down"></i>
+                    <h3>帶貓咪住宿，我需要準備哪些東西呢？</h3>
+                </button>
+                <div class="accordion-content">
+                    <p>
+                        會的！
+                        為了避免陌生貓咪之間打架受傷，並確保害羞的貓咪也能有安心的放風時間，貓後苑採用＂每房獨立放風＂的做法！
+                        不同房的貓咪不會一起放風喔！
+                        (每房輪流獨立放風，一房每日放風時間為大家輪流平均分配，若旅館當日只有一隻貓則是整天放風哦。)
+                        但每位貓咪個性不同，如貓咪緊張不願意出房間，我們不會強迫貓咪出來，敬請家長理解。
+                    </p>
+                </div>
+
+                <button class="accordion"><i class="fa-solid fa-chevron-down"></i>
+                    <h3>我的貓咪要住宿，貓格子有提供到府接送服務嗎？</h3>
+                </button>
+                <div class="accordion-content">
+                    <p>
+                        會的！
+                        為了避免陌生貓咪之間打架受傷，並確保害羞的貓咪也能有安心的放風時間，貓後苑採用＂每房獨立放風＂的做法！
+                        不同房的貓咪不會一起放風喔！
+                        (每房輪流獨立放風，一房每日放風時間為大家輪流平均分配，若旅館當日只有一隻貓則是整天放風哦。)
+                        但每位貓咪個性不同，如貓咪緊張不願意出房間，我們不會強迫貓咪出來，敬請家長理解。
+                    </p>
+                </div>
+
+                <button class="accordion"><i class="fa-solid fa-chevron-down"></i>
+                    <h3>長期住宿有打折嗎？</h3>
+                </button>
+                <div class="accordion-content">
+                    <p>
+                        會的！
+                        為了避免陌生貓咪之間打架受傷，並確保害羞的貓咪也能有安心的放風時間，貓後苑採用＂每房獨立放風＂的做法！
+                        不同房的貓咪不會一起放風喔！
+                        (每房輪流獨立放風，一房每日放風時間為大家輪流平均分配，若旅館當日只有一隻貓則是整天放風哦。)
+                        但每位貓咪個性不同，如貓咪緊張不願意出房間，我們不會強迫貓咪出來，敬請家長理解。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------go top------------------- -->
+    <a href="" class="top" style="text-decoration:none;">
+        <div class="gotop"> GO <br> TOP</div>
+    </a>
+    <!-- -------------------頁腳------------------- -->
+    <div class="footer">
+        <div class="footer_logo"><img src="images/footer_logo.png" alt=""></div>
+        <!-- 大尺寸 -->
+        <div class="footer_navbar_desktop">
+            <ul class="footer_firstbar">
+                <li>關於貓格子
+                    <ul class="footer_secbar">
+                        <li><a href="Aboutus.html">關於我們</a></li>
+                        <li><a href="ServiceItem.html">服務項目</a></li>
+                        <li><a href="Environment.html">環境介紹</a></li>
+                    </ul>
+                </li>
+                <li>｜</li>
+                <li><a href="News.html">最新消息</a></li>
+                <li>｜</li>
+                <li>貓咪住宿
+                    <ul class="footer_secbar">
+                        <li><a href="Room.html">房型介紹</a></li>
+                        <li><a href="http://line.me/ti/p/@">住宿預約</a></li>
+                        <li><a href="Rule.html">住宿須知</a></li>
+                    </ul>
+                </li>
+                <li>｜</li>
+                <li><a href="ContactUs.html">聯絡我們</a></li>
+                <li>｜</li>
+                <li><a href="Q&A.html">常見Q&A</a></li>
+            </ul>
+        </div>
+        <!-- 小尺寸 -->
+        <div class="footer_navbar_mobile">
+            <ul class="footer_firstbar">
+                <div class="col-md-5">
+                    <li>關於貓格子
+                        <ul class="footer_secbar">
+                            <li><a href="Aboutus.html">關於我們</a></li>
+                            <li><a href="ServiceItem.html">服務項目</a></li>
+                            <li><a href="Environment.html">環境介紹</a></li>
+                        </ul>
+                    </li>
+                    <li>貓咪住宿
+                        <ul class="footer_secbar">
+                            <li><a href="Room.html">房型介紹</a></li>
+                            <li><a href="http://line.me/ti/p/@">住宿預約</a></li>
+                            <li><a href="Rule.html">住宿須知</a></li>
+                        </ul>
+                    </li>
+                </div>
+                <div class="col-md-5">
+                    <li><a href="News.html">最新消息</a></li>
+                    <li><a href="ContactUs.html">聯絡我們</a></li>
+                    <li><a href="Q&A.html">常見Q&A</a></li>
+                </div>
+            </ul>
+        </div>
+        <div class="footer_social">
+            <ul class="socialmedia">
+                <li><a href="#"><i class="fa-brands fa-square-facebook fa-2xl"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-line fa-2xl"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer_copyright">Copyright © 2022 CatCube. All rights reserved.</div>
+    </div>
+
+
+
+    <!-- Swiper JS Banner-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".banner .mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".banner .swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <!-- Swiper JS 房客精選 -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".history .mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 3,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: ".history .swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <!-- gotop -->
+    <script src="js/jquery-1.6.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/gotop.js"></script>
+
+    <!-- 動畫 -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+        });
+    </script>
+
+    <script type="text/javascript">
+        window.onload = window.onresize = function () {
+            if (document.getElementById("aboutus02").clientHeight < document.getElementById("aboutus01").clientHeight) {
+                document.getElementById("aboutus02").style.height = document.getElementById("aboutus01").offsetHeight + "px";
+            }
+            else {
+                document.getElementById("aboutus01").style.height = document.getElementById("aboutus02").offsetHeight + "px";
+            }
+        }
+    </script>
+
+    <!-- 手風琴 -->
+    <script>
+        const accordionBtns = document.querySelectorAll(".accordion");
+
+        accordionBtns.forEach((accordion) => {
+            accordion.onclick = function () {
+                this.classList.toggle("is-open");
+
+                let content = this.nextElementSibling;
+                console.log(content);
+
+                if (content.style.maxHeight) {
+                    //this is if the accordion is open
+                    content.style.maxHeight = null;
+                } else {
+                    //if the accordion is currently closed
+                    content.style.maxHeight = content.scrollHeight + "px";
+                    console.log(content.style.maxHeight);
+                }
+            };
+        });
+
+    </script>
+
+     <!-- 導覽變色 -->
+  <!-- <script>
+
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if (scroll > 900) {
+          $(".navbar li a, .navbar li .fa-solid, .c-fixedLogo_a").css("color", "#C79685");
+          $(".navbar").css("padding-top", "30px")
+        }
+        else {
+          $(".navbar li a, .navbar li .fa-solid, .c-fixedLogo_a").css("color", "White");
+          $(".navbar").css("padding-top", "80px")
+        }
+      })
+    }) 
+  </script> -->
+
+  <!-- LOGO顏色與大小 -->
+  <script
+  src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+
+
+<!-- <script id="rendered-js">
+  $(document).ready(function () {
+    $(window).on("scroll", function () {
+      console.log($(this).scrollTop());
+      if ($(this).scrollTop() >= 900) {
+        // set to new image
+        $(".c-fixedLogo_a img").attr("src", "images/Logo_nav_pink.png");
+        $(".c-fixedLogo_a img").css("width", "90px")
+        $(".c-fixedLogo_a img").css("margin-top", "-20px")
+      } else {
+        //back to default
+        $(".c-fixedLogo_a img").attr("src", "images/Logo_nav.png");
+        $(".c-fixedLogo_a img").css("width", "150px")
+        $(".c-fixedLogo_a img").css("margin-top", "-60px")
+      }
+    });
+  });
+//# sourceURL=pen.js
+</script> -->
+
+<script id="rendered-js">
+$(document).ready(function () {
+  $(window).on("scroll", function () {
+    console.log($(this).scrollTop());
+    if ($(this).scrollTop() >= 900) {
+      // set to new image
+      $(".navigation__button").css("opacity", "1")
+      $(".navbar").css("display", "none")
+    } else {
+      //back to default
+      $(".navigation__button").css("opacity", "0")
+      $(".navbar").css("display", "flex")
+    }
+  });
+});
+//# sourceURL=pen.js
+</script>
+
+</body>
+
+</html>
