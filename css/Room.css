@@ -554,7 +554,7 @@ img {
 @media (max-width: 568px) {
     .banner {
         background-image: url(../images/background_mobile.png);
-        height: 2150vmin;
+        height: 215vmin;
     }
 
     .banner .swiper-wrapper .big {
